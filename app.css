@@ -1,18 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    padding: 40px;
     background: whitesmoke;
-    text-align: center;
 }
-
-#apple-shelf {
-    background: lightcoral;
-    border-radius: 10px;
-    height: 30px;
-    margin: 10px 0;
+.container {
+    background-color: grey;
+    min-height: 100vh;
+    width: 60%;
+    margin: auto;
 }
-
-#orange-shelf {
-    background: lightsalmon;
-    border-radius: 10px;
-    height: 30px;
+.box{
+    padding: 4rem 8rem;
+    font-size: 3rem;
+    color: white
+}
+.green {
+    color: rgb(157, 230, 47);
+}
+button {
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    border: none;
+    cursor: pointer;
+}
+#gen-passwords{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+    background-color: rgb(157, 230, 47);
+    color: white;
+    text-shadow: 1px 2px black;
+}
+.passwords{
+    margin-top: 3rem;
+}
+#password1, #password2 {
+    color: rgb(157, 230, 47);
+    background-color: rgba(0, 0, 0, 0.5);
 }

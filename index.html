@@ -1,10 +1,27 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="app.css">
-    </head>
-    <body>
-        <div id="apple-shelf"></div>  
-        <div id="orange-shelf"></div>
-        <script src="app.js"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Generate a</h2>
+            <h2 class="green">random password</h2>
+            <p>Never use an insecure password again.</p>
+            <button id="gen-passwords">generate passwords</button>
+            <hr>
+            <div class="passwords">
+                <button id="password1">default password</button>
+                <button id="password2">default password</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
 </html>
