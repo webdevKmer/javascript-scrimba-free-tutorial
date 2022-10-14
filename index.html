@@ -10,11 +10,14 @@
 <body>
     <div class="container">
         <h1 class="title">Blackjack</h1>
-        <p>Want to play a round ?</p>
-        <p>Cards : </p>
-        <p>Sum : </p>
-        <button class="btn" id="start">Start Game</button>
-        
+        <p class="italic" id="message">Want to play a round ?</p>
+        <p>Cards : <span id="cards"></span> </p>
+        <p>Sum : <span id="sum"></span></p>
+        <div class="btns">
+            <button class="btn" id="start">Start Game</button>
+            <button class="btn" id="newCard">New Card</button>
+        </div>
+        <p id="player"></p>
     </div>
 
     <script src="./app.js"></script>
