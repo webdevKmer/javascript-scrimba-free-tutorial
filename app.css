@@ -5,26 +5,32 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: blanchedalmond;
+    background-color: green;
+    color: white;
     min-height: 100vh;
+    gap: 2rem;
 }
 .title {
     font-weight: bold;
-    font-size: 4rem;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: goldenrod;
 }
 .btn {
-    font-size: 3rem;
+    font-size: 1.5rem;
     padding: 1rem 2rem;
-    background-color: transparent;
+    background-color: goldenrod;
     border-radius: .5rem;
-    color: gainsboro;
+    color: green;
     cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+p {
+    font-size: 1.5rem;
 }
