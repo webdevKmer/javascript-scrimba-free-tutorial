@@ -43,3 +43,9 @@ button {
     color: rgb(157, 230, 47);
     background-color: rgba(0, 0, 0, 0.5);
 }
+label {
+    font-size: 1rem;
+}
+input {
+    display: inline-block;
+}
