@@ -5,13 +5,69 @@
 }
 
 body {
-    background: grey;
+    background-color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container {
-    background-color: whitesmoke;
-    min-height: 100vh;
-    width: 60%;
-    margin: auto;
+    background-color: bisque;
+    min-height: 90vh;
+    width: 40%;
+    margin: 1rem auto;
+    border-radius: .5rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.operation{
+    background-color: rgb(81, 99, 198);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+    min-height: 200px;
+    color: white;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.operation button, .operation input {
+    width: 35%;
+    text-align: center;
+    color: white;
+}
+.operation button {
+    cursor: pointer;
+    color: black;
+    padding: .5rem 1rem;
+}
+.operation input {
+    color: white;
+    padding: .25rem 1rem;
+    font-size: 3rem;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.conversions {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: space-around;
+    gap: 1rem;
+
+}
+.box {
+    padding: .5rem 2rem;
+    border-radius: .25rem;
+    background-color: beige;
 }
