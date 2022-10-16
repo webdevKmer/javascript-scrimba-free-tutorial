@@ -26,6 +26,7 @@ body {
     gap: 1rem;
 }
 .operation{
+    flex: 1;
     background-color: rgb(81, 99, 198);
     display: flex;
     flex-direction: column;
@@ -58,6 +59,7 @@ body {
     border: 2px solid white;
 }
 .conversions {
+    flex: 2;
     color: grey;
     display: flex;
     flex-direction: column;
